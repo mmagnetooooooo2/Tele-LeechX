@@ -38,6 +38,9 @@ async def extract_youtube_dl_formats(
     if "moly.cloud" in url:
         command_to_exec.append("--referer")
         command_to_exec.append("https://vidmoly.to/")
+    if "rxk1k.xyz" in url:
+        command_to_exec.append("--referer")
+        command_to_exec.append("https://rxk1k.xyz/")
     if "closeload" in url:
         command_to_exec.append("--referer")
         command_to_exec.append("https://closeload.com/")
