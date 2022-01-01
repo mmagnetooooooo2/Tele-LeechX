@@ -148,9 +148,9 @@ async def youtube_dl_call_back(bot, update):
     if "moly.cloud" in youtube_dl_url:
         command_to_exec.append("--referer")
         command_to_exec.append("https://vidmoly.to/")
-    if "rxk1k.xyz" in youtube_dl_url:
+    if "vh4nx.xyz" in youtube_dl_url:
         command_to_exec.append("--referer")
-        command_to_exec.append("https://rxk1k.xyz/")
+        command_to_exec.append("https://vh4nx.xyz/")
     if "closeload" in youtube_dl_url:
         command_to_exec.append("--referer")
         command_to_exec.append("https://closeload.com/")
